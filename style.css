@@ -128,6 +128,12 @@ nav .fa{
         
     }
     
+    .vil h3{
+        margin-left: 40px;
+        
+    }
+    
+    
     .vil p{
         font-size: 20px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -147,9 +153,12 @@ nav .fa{
        justify-content: space-between;
        padding-left: 30px;
        padding-right: 50px;
+   
     }
     .ma1{
         width: 510px;
+       
+       
     }
     
     .ma2{
@@ -236,4 +245,208 @@ cursor: pointer;
 border: 1px solid #fff;
 background: white;
 transition: 1s;
+}
+
+/* section 3 page 3 */
+
+.baf h1{
+    text-align: center;
+    padding-bottom: 30px;
+    color: #f44336;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bafs {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.ci{
+  width: 490px;  
+}
+
+
+.san{
+    width: 470px; 
+} 
+
+
+.me{
+    width: 420px;   
+}
+
+.her2{
+    background-color: burlywood;
+    height: 15vh;
+    margin-top: 30px;
+    border-radius: 5px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.her2 a{
+   margin-left: 250px; 
+}
+.hero-btn2{
+display: inline-block;
+text-decoration: none;
+color: black;
+border: 1px solid #fff;
+border-radius: 15px;
+padding: 18px 64px;
+font-size: 20px;
+background: transparent;
+position: relative;
+cursor: pointer;
+
+}  
+.hero-btn2:hover{
+border: 1px solid #fff;
+background: blue;
+transition: 1s;
+}
+
+
+/* partie bobo et ces merveilles */
+
+
+
+.mosq{
+  
+  
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+ }
+ 
+ 
+ .mosq-col{
+     flex-basis: 32%;
+     border-radius: 10px;
+     margin-bottom: 30px;
+     position: relative;
+     overflow: hidden;
+ }
+ 
+ 
+ .layer {
+     background: transparent;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: 0.5s;
+  }
+  .layer:hover{
+      background: rgba(96, 54, 54, 0.7);
+  }
+  .layer h3 {
+      width: 100%;
+      font-weight: 500;
+      color: #fff;
+      font-size: 26px;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      position: absolute;
+      opacity: 0;
+      transition: 0.5s;
+  }
+  .layer:hover h3{
+     bottom: 49%; 
+     opacity: 1;
+  }
+ 
+ 
+ 
+ 
+ .mos{
+     display: flex;
+     justify-content: space-between;
+    
+ 
+ }
+ .mos h2{
+     padding-top: 20px;
+ }
+ 
+ .mo1 img{
+     width: 440px;
+ }
+ 
+ .mo2 img{
+     width: 470px;
+ }
+ 
+ 
+ .mo3 img{
+     width: 500px;
+ }
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* page contact */
+
+
+.fors form{
+   padding-left: 100px; 
+   padding-right: 100px;
+   background-color: burlywood;
+}
+
+
+.fors button{
+    margin-left: 230px;
+}
+
+.for{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.fors h1{
+    font-size: 80px;
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.fir{
+    background-color: #f44336;
+    padding: 5% 5%;
+}
+
+.fir h1{
+    font-size: 80px;
+    color: black;
+    padding-bottom: 50px;
+}
+
+.fir p{
+    padding-bottom: 50px;
+    color: black;
+    text-align: center;
+}
+
+.fir h4{
+    color: #fff;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
