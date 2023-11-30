@@ -118,4 +118,4 @@
     <a class="text-white" href="https://mdbootstrap.com/">Dramdy-TR.com</a>
   </div>
   <!-- Copyright -->
-</footer>
+</footer> 
